@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #A38852;
+}
+
+header nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .hrfh1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav .list ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav .list ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav .list ul li a:hover {
+    color: #ff6f61;
+}
+
+main {
+    padding: 20px;
+}
+
+main #welcome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main #welcome h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+main #welcome h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.cardmodel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardmodel .model {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.cardmodel .model:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cardmodel .model img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.cardmodel .model p {
+    color: #333;
+}
+
+.formantrian {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.formantrian h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formantrian .form-group {
+    margin-bottom: 15px;
+}
+
+.formantrian .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.formantrian .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.formantrian .form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formantrian .form-group button:hover {
+    background-color: #ff6f61;
+}
+
+.mdaftar {
+    padding: 20px;
+}
+
+.mdaftar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.isidaftar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.isidaftar table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.isidaftar table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.isidaftar th {
+    background-color: #333;
+    color: #fff;
+}
+
+.isidaftar td {
+    color: #333;
+}

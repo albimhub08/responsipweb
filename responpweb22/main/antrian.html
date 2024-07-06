@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../style/style.js"></script>
+    <title>Barbershop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hrfh1">
+                <h1>Barbershop</h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./antrian.html">Form Antrian</a></li>
+                    <li><a href="./daftarantrian.php">Daftar Antrian</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="formantrian" class="formantrian">
+            <h2>Form Antrian</h2>
+            <div class="isiform">
+                <form action="../antrian.php" method="POST">
+                    <div class="form-group">
+                        <label for="nama">Nama:</label>
+                        <input type="text" name="nama" id="nama" placeholder="Nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="waktu">Pukul:</label>
+                        <input type="time" name="waktu" id="waktu" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nohp">Nomor Telepon:</label>
+                        <input type="tel" name="nohp" id="nohp" placeholder="No Telp" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Model Potongan:</label>
+                        <input type="text" name="model" id="model" placeholder="Jenis Model Potongan" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" name="Submit" value="Submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
